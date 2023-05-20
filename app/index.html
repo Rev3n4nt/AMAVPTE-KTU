@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html style="height:100%">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <link href="./styles.css" rel="stylesheet">
+    <title>AMAVMPTE - Accessibility issues detector</title>
+    <script src="./renderer.js"></script>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>
+          <button id="selectPath">Select APK / Image Folder</button><br>
+          <button id="startDroidbot" disabled>Start droidbot</button><br>
+          <button id="stopDroidbot" disabled>Stop droidbot</button><br>
+          <span id="stopTimer"></span><br>
+          <button id="increaseTimer" disabled>Add 1 min</button><br>
+          <button id="startTest" disabled>Start test</button><br>
+          <button id="stopTest" disabled>Stop test</button><br>
+          <button id="exportResults" disabled>Export results</button><br>
+        </td>
+        <td width="100%">
+          <span id="selectedPath"></span><br>
+          <div id="log"></div>
+        </td>
+      </tr>
+    </table>
+    <div id="images"></div>
+    <div id="resultPreview">
+      <div id="resultPreviewContent">
+        shiet!<br>
+        happens
+      </div>
+    </div>
+  </body>
+</html>

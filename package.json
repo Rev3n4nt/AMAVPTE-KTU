@@ -1,0 +1,18 @@
+{
+  "name": "AMAVPTE",
+  "version": "1.0.0",
+  "description": "UI Test Framework",
+  "main": "app/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "python -m unittest test_suite.py -vvv",
+    "eslint": "eslint app/*.js",
+    "pycodestyle": "pycodestyle tests/*.py"
+  },
+  "author": "me",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^23.1.4",
+    "eslint": "^8.41.0"
+  }
+}
