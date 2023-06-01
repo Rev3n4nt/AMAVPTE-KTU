@@ -2,3 +2,5 @@ node_modules
 app/config.json
 output
 lib/__pycache__
+__pycache__
+startAVD.bat
